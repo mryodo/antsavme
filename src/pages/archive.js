@@ -51,4 +51,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Archive Page</title>
+export const Head = () => <title>Archive of Updates</title>

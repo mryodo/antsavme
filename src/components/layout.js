@@ -86,7 +86,12 @@ const Layout = ({ children }) => {
                <br/>
                
    
-         
+        <div className="menu">
+                            <Link to="/">Home</Link>
+                            <Link to="/archive">Archive</Link>
+                            <Link to="/publications">Publications</Link> 
+                            <Link to="/archive">CV</Link>
+          </div>  
           
                 
        </div>

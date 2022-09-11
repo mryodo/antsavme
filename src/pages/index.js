@@ -14,11 +14,11 @@ const IndexPage = () => {
                      <p>Hello! I'm <span className="rainbow2"> Anton Savostianov</span>. Presently I'm doing my PhD in <mark>Mathematics in Natural Science</mark> at <span className="rainbowGSSI">Gran Sasso Science Institute</span> in <i> L'Aquila, Italy</i>.
                      </p>
                      <p>
-                     My current work is focuses on the numerical methods for <mark>Network Science</mark>.  My previous work included:
+                     My current work is focuses on the numerical methods for <mark>Network Sciences</mark>.  My previous work included:
                      <ul>
-                        <li> coupled (nonlinear) oscillators for modelling solar activity</li>
-                        <li> detection of 3D structure in chromatine via CV methods</li>
-                        <li> quasi stationary points in spatially-heterogeneous models of biocommuinites</li>
+                        <li> coupled (nonlinear) oscillators for modelling <span class="mark2">solar activity</span></li>
+                        <li> detection of 3D structure in <span class="mark2">chromatine</span> via CV methods</li>
+                        <li> quasi stationary points in <span class="mark2">spatially-heterogeneous models of biocommuinites</span></li>
                      </ul>
                      
                      </p>
@@ -65,4 +65,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Anton Savostianov</title>

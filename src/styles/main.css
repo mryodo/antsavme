@@ -347,6 +347,8 @@ mark{
     }
 
     .side{
+        position: sticky;
+        top: 1em; 
         width: 100%;
         grid-area: right;
         margin-top: 2em;
@@ -410,4 +412,34 @@ mark{
     }
 
 }
+
+
+.mark2{
+    background-color: var(--ctp-frappe-rosewater-hsl);
+    font-weight:300;
+}
+
+.menu{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.menu a{
+    font-size: 1.0em;
+    text-decoration: none;
+    background-color: var(--ctp-mocha-subtext0-hsl);
+    border-radius: 1.5rem;
+    padding: 0.1em 0.4em;
+    margin-right: 1em;
+    color: var(--ctp-latte-subtext0-hsl);
+    font-weight: 500;
+}
+
+.menu a:hover{
+    color: var(--ctp-frappe-base-hsl);
+    background-color: var(--ctp-mocha-pink-hsl);
+}
+
 
