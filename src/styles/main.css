@@ -88,7 +88,7 @@ body{
     .sidecontent{
         color: var(--ctp-latte-crust-hsl);
         margin: auto;
-        width: 85%;
+        width: 90%;
     }
 
     .grid-container {
@@ -111,6 +111,10 @@ body{
     }
     .name{
         display: none;
+    }
+    
+    .shortener::before{
+        content: 'Me';
     }
 }
 
@@ -274,15 +278,20 @@ mark{
 }
 
 
+
 .wrapCenter h1{
     font-size: 1.41rem;
     margin-top: -0.25em;
+    margin-bottom: 1em;
 }
 
+.wrapCenter ul{
+    margin-top: 1em;
+}
 
 .wrapCenter li{
-    /*margin-top:-0.25em;*/
-    margin-left: -0.5em;
+    margin-top: -.75em;
+    /*margin-left: 0em;*/
     /*list-style-image: url('anchor.svg');*/
     list-style: none;
 }
@@ -336,6 +345,7 @@ mark{
     }
 
     .side{
+        width: 100%;
         grid-area: right;
         margin-top: 2em;
     }
@@ -370,7 +380,7 @@ mark{
         text-align: center;
     }
     .sidecontent{
-        width:95%;
+        width: 90%;
     }
     .soc-item2{
         font-size: 0.85em;
@@ -381,5 +391,21 @@ mark{
     .emailSection{
         font-size: 0.85em;
     }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .shortener::before{
+        content: 'Me';
+    }
+
+}
+
+@media only screen and (min-width: 1000px){
+
+    .shortener::before{
+        content: 'Contact me';
+    }
+
 }
 

@@ -48,7 +48,7 @@ const IndexPage = () => {
                 </div>
 
                 <div className="emailSection">
-                            <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="mail"/> Contact me </span>: </div>
+                            <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="mail"/> <span className="shortener"/></span>: </div>
                             <div className="emailHider">@<div className="emailCatch">botblocker@heartinternet.uk</div></div>
                             <br/>
                             <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="users"/> COMPiLE group </span>: </div> 
@@ -82,10 +82,10 @@ const IndexPage = () => {
         </div>
         <div className="wrapCenter">
         <h1 className="titleSeparate"> <FeatherIcon size="19" icon="edit-2" /> About Me</h1> 
-                     <p>Hello! I'm <span className="rainbow2"> Anton Savostianov</span>. Currently I'm doing my PhD in <mark>Mathematics in Natural Science</mark> at <span className="rainbowGSSI">Gran Sasso Science Institute</span> in <i> L'Aquila, Italy</i>.
+                     <p>Hello! I'm <span className="rainbow2"> Anton Savostianov</span>. Presently I'm doing my PhD in <mark>Mathematics in Natural Science</mark> at <span className="rainbowGSSI">Gran Sasso Science Institute</span> in <i> L'Aquila, Italy</i>.
                      </p>
                      <p>
-                     My current work is focues on the numerical methods for <mark>Network Science</mark>.  My previous work included:
+                     My current work is focuses on the numerical methods for <mark>Network Science</mark>.  My previous work included:
                      <ul>
                         <li> coupled (nonlinear) oscillators for modelling solar activity</li>
                         <li> detection of 3D structure in chromatine via CV methods</li>
