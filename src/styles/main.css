@@ -286,11 +286,11 @@ mark{
 }
 
 .wrapCenter ul{
-    margin-top: 1em;
+    margin-top: 0.5em;
 }
 
 .wrapCenter li{
-    margin-top: -.75em;
+    /*margin-top: -.25em;*/
     /*margin-left: 0em;*/
     /*list-style-image: url('anchor.svg');*/
     list-style: none;
@@ -341,7 +341,9 @@ mark{
     }
     
     .mainWrapper{
+        width: 90%;
         grid-template-columns: 3fr 2fr;
+        gap: 0em;
     }
 
     .side{
