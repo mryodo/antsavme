@@ -1,16 +1,12 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import * as React from "react"
+
+import  '../styles/main.css'
+import logo from "../images/logo.png"
+import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
+import FeatherIcon from 'feather-icons-react'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,28 +20,84 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
-        }}
-      >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+    <div className="mainWrapper">
+    <div  className="side">
+       <div className="sidecontent">
+         
+             <div class="grid-container">
+
+                 <div class="grid-child">
+                       <div className='sayHi'> 
+                                     <span className="rainbow">Hi! </span> <br/> 
+                                       My name is <span className="rainbow">Anton Savostianov</span>.
+                       </div> 
+                 </div>
+
+                 <div class="grid-child">
+                           <div class="sideImgWrap">
+                                              <img  src = {logo} alt="my stupid face"     />
+                           </div>
+                 </div>
+                 <div className="name">
+                   <span className="rainbow"> Anton Savostianov</span>
+                 </div>
+
+             </div>
+
+             <div class="nametag">
+                 Applied Math Researcher
+             </div>
+
+             <div className="soc2">
+                       <div className="soc-item2">
+                               <FeatherIcon size="20" icon="calendar"/> &nbsp; 26/04/95
+                       </div>
+                     <div className="soc-item2">
+                           <FeatherIcon size="20" icon="thermometer"/>  PhD Student
+                     </div>
+                     <div className="soc-item2">
+                             <FeatherIcon size="20" icon="map-pin"/>  GSSI, Italy
+                     </div>
+             </div>
+
+             <div className="emailSection">
+                         <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="mail"/> <span className="shortener"/></span>: </div>
+                         <div className="emailHider">@<div className="emailCatch">botblocker@heartinternet.uk</div></div>
+                         <br/>
+                         <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="users"/> COMPiLE group </span>: </div> 
+                         <a href="num-gssi.github.io">num-gssi.github.io </a>
+               </div> 
+
+             <div className="soc">
+                         <div className="soc-item"> 
+                                   <a href="https://github.com/mryodo"><FeatherIcon size="26" icon="github" /></a>
+                         </div>
+                         <div className="soc-item">
+                                 <a href="https://twitter.com/mryodo"><FeatherIcon size="26" icon="twitter" /> </a> 
+                         </div>
+                         <div className="soc-item">
+                                   <a href="https://t.me/mryodo"><FeatherIcon size="26" icon="send" />  </a>
+                         </div>
+                         <div className="soc-item">
+                                   <a href="https://scholar.google.com/citations?user=E0nt-XYAAAAJ&hl=en"><FeatherIcon size="26" icon="award" />  </a>
+                         </div>
+               </div>
+               
+               <br/>
+               
+   
+         
+          
+                
+       </div>
+             
+         
+     </div>
+     <div className="wrapCenter">
+          {children}
       </div>
-    </>
+ </div>
+    
   )
 }
 

@@ -4,26 +4,12 @@ import  '../styles/main.css'
 import logo from "../images/logo.png"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-
 import FeatherIcon from 'feather-icons-react'
 
 const IndexPage = () => {
   return (
-        <Layout>
-        <h1 className="titleSeparate"> <FeatherIcon size="19" icon="edit-2" /> About Me</h1> 
-                     <p>Hello! I'm <span className="rainbow2"> Anton Savostianov</span>. Presently I'm doing my PhD in <mark>Mathematics in Natural Science</mark> at <span className="rainbowGSSI">Gran Sasso Science Institute</span> in <i> L'Aquila, Italy</i>.
-                     </p>
-                     <p>
-                     My current work is focuses on the numerical methods for <mark>Network Science</mark>.  My previous work included:
-                     <ul>
-                        <li> coupled (nonlinear) oscillators for modelling solar activity</li>
-                        <li> detection of 3D structure in chromatine via CV methods</li>
-                        <li> quasi stationary points in spatially-heterogeneous models of biocommuinites</li>
-                     </ul>
-                     
-                     </p>
-
-            <h1 className="titleSeparate"> <FeatherIcon size="19" icon="refresh-cw" /> Quick Updates  &nbsp; <Link  to="/archive/"><FeatherIcon size="18" icon="archive"/></Link>  </h1>        
+    <Layout>
+            <h1 className="titleSeparate"> <FeatherIcon size="19" icon="archive" /> Archive      </h1>        
             <div className="newsContainer">
                       
                         <div className="newsDate"> 13 Sep</div>
@@ -65,4 +51,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Archive Page</title>
