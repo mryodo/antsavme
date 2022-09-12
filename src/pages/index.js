@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
         <Layout>
         <h1 className="titleSeparate"> <FeatherIcon size="19" icon="edit-2" /> About Me</h1> 
-                     <p>Hello! I'm <span className="rainbow2"> Anton Savostianov</span>. Presently I'm doing my PhD in <mark>Mathematics in Natural Science</mark> at <span className="rainbowGSSI">Gran Sasso Science Institute</span> in <i> L'Aquila, Italy</i>.
+                     <p>Hello! I'm <span className="rainbow2"> Anton Savostianov</span>. Presently I'm doing my PhD in <mark>Mathematics in Natural Science</mark> at <span className="rainbowGSSI"><a href="https://gssi.it">Gran Sasso Science Institute</a></span> in <i> L'Aquila, Italy</i>.
                      </p>
                      <p>
                      My current work is focuses on the numerical methods for <mark>Network Sciences</mark>.  My previous work included:

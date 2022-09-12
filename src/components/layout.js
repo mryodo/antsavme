@@ -81,16 +81,19 @@ const Layout = ({ children }) => {
                          <div className="soc-item">
                                    <a href="https://scholar.google.com/citations?user=E0nt-XYAAAAJ&hl=en"><FeatherIcon size="26" icon="award" />  </a>
                          </div>
+
+
+                         
                </div>
                
                <br/>
                
    
         <div className="menu">
-                            <Link to="/">Home</Link>
-                            <Link to="/archive">Archive</Link>
-                            <Link to="/publications">Publications</Link> 
-                            <Link to="/archive">CV</Link>
+                            <Link to="/" activeClassName="active"><FeatherIcon size="15" icon="home"/> Home</Link>
+                            <Link to="/archive" activeClassName="active"><FeatherIcon size="15" icon="archive"/> Archive</Link>
+                            <Link to="/publications" activeClassName="active"><FeatherIcon size="15" icon="pen-tool"/>Publications</Link> 
+                            <Link to="https://drive.google.com/file/d/1bRNbDoTSECoxUq71sGCa1Q8lkDisfCzN/view?usp=sharing" activeClassName="active"><FeatherIcon size="15" icon="paperclip"/>CV</Link>
           </div>  
           
                 
