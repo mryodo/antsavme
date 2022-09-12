@@ -55,6 +55,12 @@ body{
     grid-row: auto;
 }
 
+.emailSection{
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    font-size: 1.1rem;
+}
+
 @media only screen and (max-width: 800px){
     html{
         /*background-color: var(--ctp-frappe-base-hsl);*/
@@ -116,6 +122,11 @@ body{
     .shortener::before{
         content: 'Me';
     }
+
+    .emailSection{
+        margin-left: 1em;
+    }
+    
 }
 
 .sayHi{
@@ -203,11 +214,7 @@ a:hover{
 }
 
 
-.emailSection{
-    margin-top: 0.5em;
-    margin-left: 1.5em;
-    font-size: 1.1rem;
-}
+
 
 .emailSection a{
     color: var(--ctp-latte-base-hsl);
@@ -402,7 +409,7 @@ mark{
 
     .emailSection{
         font-size: 0.85em;
-        margin-left: 1em;
+        margin-left: 2em;
     }
 }
 
