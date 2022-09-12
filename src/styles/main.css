@@ -5,7 +5,7 @@
 
 html{
     font-family: 'Nunito', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color:  var(--ctp-latte-text-hsl);
     background-color: var(--ctp-latte-mantle-hsl);
 }
