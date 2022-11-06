@@ -66,6 +66,9 @@ const Layout = ({ children }) => {
                          <br/>
                          <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="users"/> COMPiLE group </span>: </div> 
                          <a href="num-gssi.github.io">num-gssi.github.io </a>
+                         <br/>
+                         <div class="quickWrap"><span className="rainbow"> <FeatherIcon size="15" icon="hash"/> Mastodon </span>: </div> 
+                         <a rel="me" href="https://mathstodon.xyz/@mryodo">here</a>
                </div> 
 
              <div className="soc">

@@ -32,7 +32,7 @@ const IndexPage = () => {
 
                                 <br/>                                <br/>
 
-                                Slides:  <a href="https://drive.google.com/file/d/1qVojy9iCoryfQnqCscFyoLVo1hJETWdJ/view?usp=sharing">here</a>   &nbsp;&nbsp;&nbsp;&nbsp; Video: TBD
+                                Slides:  <a href="https://drive.google.com/file/d/1qVojy9iCoryfQnqCscFyoLVo1hJETWdJ/view?usp=sharing">here</a>   &nbsp;&nbsp;&nbsp;&nbsp; Video: <a href="https://www.youtube.com/watch?v=mlG-t9i2q8Q&ab_channel=FreshfromtheArXiv">here</a>
                           </div>
 
                           <div className="newsDate"> 19 Aug</div>
