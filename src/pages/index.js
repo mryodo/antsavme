@@ -25,7 +25,15 @@ const IndexPage = () => {
 
             <h1 className="titleSeparate"> <FeatherIcon size="19" icon="refresh-cw" /> Quick Updates  &nbsp; <Link  to="/archive/"><FeatherIcon size="18" icon="archive"/></Link>  </h1>        
             <div className="newsContainer">
-                      
+                        <div className="newsDate"> 23 Dec</div>
+                        <div className="newsText">
+                              The repository with <span className="rainbow2">Julia</span> code for the <mark>HOLaGraF</mark> project is up online: <a href="https://github.com/COMPiLELab/HOLaGraF"> https://github.com/COMPiLELab/HOLaGraF </a>.
+
+                              <br/>                                <br/>
+
+                              The full paper will follow soon.
+                        </div>
+
                         <div className="newsDate"> 13 Sep</div>
                         <div className="newsText">
                                 Giving a lighting talk on the joint work <mark> Topological Stability of the Simplicial Complex via Matrix Differential Equations</mark> with <a href="https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola#VI">Nicola Guglielmi</a> and <a href="ftudisco.gitlab.io">Francesco Tudisco</a> at SIAM Network Science Workshop 2022. 
