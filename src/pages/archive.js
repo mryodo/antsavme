@@ -13,7 +13,7 @@ const IndexPage = () => {
             <div className="newsContainer">
             <div className="newsDate"> 23 Dec</div>
                         <div className="newsText">
-                              The repository with <span className="rainbow2">Julia</span> code for the <mark>HOLaGraF</mark> project is up online: <a href="https://github.com/COMPiLELab/HOLaGraF"> https://github.com/COMPiLELab/HOLaGraF </a>.
+                              The repository with <span className="rainbow2">Julia</span> code for the <mark>HOLaGraF</mark> project is up online: <a href="https://github.com/COMPiLELab/HOLaGraF"> repository </a>.
 
                               <br/>                                <br/>
 
