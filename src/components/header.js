@@ -12,6 +12,7 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
+     <meta name="theme-color" content="#ffffff"/>
     <Link
       to="/"
       style={{
