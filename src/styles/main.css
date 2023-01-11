@@ -339,6 +339,7 @@ mark{
 .newsText{
     grid-area: text;
     grid-row: auto;
+    padding-bottom: 2pt;
     border-bottom: dashed 1pt var(--ctp-latte-surface2-hsl);    
     margin-bottom: 1em;
 }
