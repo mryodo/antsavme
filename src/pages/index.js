@@ -27,10 +27,12 @@ const IndexPage = () => {
             <div className="newsContainer">
 
                         <div className="newsDate"> 11 Jan </div>
-                        <div className="newText">
+                        <div className="newsText">
                               The <span className="rainbow2"> preprint </span> for <b> Quantifying the structural stability of simplicial homology </b> with <i>Francesco Tudisco</i> and <i>Nicola Guglielmi</i> is (finally) online!
 
-                             
+                              <br/>
+
+                              PDF: <a href="https://arxiv.org/abs/2301.03627"> arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp; Code:<a href="https://github.com/COMPiLELab/HOLaGraF"> repository </a>. 
                         </div>
 
                         <div className="newsDate"> 23 Dec</div>
