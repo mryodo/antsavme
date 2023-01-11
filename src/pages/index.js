@@ -25,6 +25,16 @@ const IndexPage = () => {
 
             <h1 className="titleSeparate"> <FeatherIcon size="19" icon="refresh-cw" /> Quick Updates  &nbsp; <Link  to="/archive/"><FeatherIcon size="18" icon="archive"/></Link>  </h1>        
             <div className="newsContainer">
+
+                        <div className="newsDate"> 11 Jan </div>
+                        <div className="newText">
+                              The <span className="rainbow2"> preprint </span> for <b> Quantifying the structural stability of simplicial homology </b> with <i>Francesco Tudisco</i> and <i>Nicola Guglielmi</i> is (finally) online!
+
+                              <br/>                                <br/>
+
+                              <a href="https://arxiv.org/abs/2301.03627"> arXiv</a>
+                        </div>
+
                         <div className="newsDate"> 23 Dec</div>
                         <div className="newsText">
                               The repository with <span className="rainbow2">Julia</span> code for the <mark>HOLaGraF</mark> project is up online: <a href="https://github.com/COMPiLELab/HOLaGraF"> repository </a>.
@@ -59,6 +69,8 @@ const IndexPage = () => {
 
                                 Poster: <a href="https://indico.gssi.it/event/344/contributions/1156/">here</a>
                           </div>
+
+                          {/*
                           <div className="newsDate"> 14–15 Feb</div>
                            <div className="newsText">
                                 Giving a contributed talk <mark>Graph Topological Stability via Matrix Differential Equations</mark> at <b>Two Days of Numerical Linear Algebra and Application</b> in Napoli, Italy. Joint work with <a href="https://www.gssi.it/people/professors/lectures-maths/item/545-guglielmi-nicola#VI">Nicola Guglielmi</a> and <a href="frudisco.gitlab.io">Francesco Tudsico</a>.
@@ -66,6 +78,7 @@ const IndexPage = () => {
                                 <br/><br/>
                                 Abstract: <a href="https://www.dma.unina.it/2ggaln/pdf/Savostianov.pdf">here</a>.
                           </div> 
+                          */}
             </div>
     </Layout>
   )

@@ -11,7 +11,17 @@ const IndexPage = () => {
     <Layout>
             <h1 className="titleSeparate"> <FeatherIcon size="19" icon="archive" /> Archive      </h1>        
             <div className="newsContainer">
-            <div className="newsDate"> 23 Dec</div>
+
+                        <div className="newsDate"> 11 Jan </div>
+                        <div className="newText">
+                              The <span className="rainbow2"> preprint </span> for <b> Quantifying the structural stability of simplicial homology </b> with <i>Francesco Tudisco</i> and <i>Nicola Guglielmi</i> is (finally) online!
+
+                              <br/>                                <br/>
+
+                              <a href="https://arxiv.org/abs/2301.03627"> arXiv</a>
+                        </div>
+
+                        <div className="newsDate"> 23 Dec</div>
                         <div className="newsText">
                               The repository with <span className="rainbow2">Julia</span> code for the <mark>HOLaGraF</mark> project is up online: <a href="https://github.com/COMPiLELab/HOLaGraF"> repository </a>.
 
