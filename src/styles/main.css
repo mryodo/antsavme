@@ -79,6 +79,7 @@ body{
         /*padding: 10px;*/
         margin: auto;
         /*border: 3px solid green;*/
+        overflow: auto;
         
     }
     .side img{
