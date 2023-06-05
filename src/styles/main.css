@@ -129,6 +129,10 @@ body{
         margin: 0.5 auto;
         text-align: center;
     }
+
+    .emailSection a{
+        white-space: nowrap; 
+    }
     
 }
 
