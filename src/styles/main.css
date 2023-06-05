@@ -125,7 +125,9 @@ body{
     }
 
     .emailSection{
-        margin-left: 1em;
+        /*margin-left: 1em;*/
+        margin: 0.5 auto;
+        text-align: center;
     }
     
 }
