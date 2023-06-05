@@ -457,6 +457,7 @@ mark{
     color: var(--ctp-latte-subtext0-hsl);
     font-weight: 500;
     white-space: pre;
+    word-wrap: normal;
     text-align: center;
 }
 
