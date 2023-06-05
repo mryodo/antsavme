@@ -29,7 +29,8 @@ const IndexPage = () => {
                         <div className="newsText" >
                               I'm travelling to the <b>25th Conference of the International Linear Algebra Society</b>, Mardid, Spain.
 
-                              <br/>
+                              <br/> <br/>
+
                               Contributed talk: <mark> Quantifying the Topological Stability of a Simplicial Complex </mark>, <a href=""> program here </a>.
                         </div>
 

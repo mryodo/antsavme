@@ -441,7 +441,8 @@ mark{
     margin: auto;
     margin-bottom: 1em;
     text-align: center;
-    /*overflow-wrap: break-word;*/
+    overflow-wrap: break-word;
+    word-break: break-word;
     line-height: 1.75em;
 }
 
