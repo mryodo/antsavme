@@ -40,7 +40,7 @@ const IndexPage = () => {
 
                               <br/> <br/>
 
-                              Contributed talk: <mark> Quantifying the Topological Stability of a Simplicial Complex </mark>, <a href=""> program here </a>.
+                              Contributed talk: <mark> Quantifying the Topological Stability of a Simplicial Complex </mark>, <a href="https://ilas2023.es/program/"> program here </a>.
                         </div>
 
                         <div className="newsDate"> 11 Jan </div>
