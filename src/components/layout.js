@@ -95,7 +95,7 @@ const Layout = ({ children }) => {
         <div className="menu">
                             <Link to="/" activeClassName="active"><FeatherIcon size="15" icon="home"/> Home</Link>
                             <Link to="/archive" activeClassName="active"><FeatherIcon size="15" icon="archive"/> Archive</Link>
-                            <Link to="/publications" activeClassName="active"><FeatherIcon size="15" icon="pen-tool"/>Publications</Link> 
+                            <Link to="/publications" activeClassName="active"><FeatherIcon size="15" icon="pen-tool"/>Papers</Link> 
                             <Link to="https://drive.google.com/file/d/1bRNbDoTSECoxUq71sGCa1Q8lkDisfCzN/view?usp=sharing" activeClassName="active"><FeatherIcon size="15" icon="paperclip"/>CV</Link>
           </div>  
           
