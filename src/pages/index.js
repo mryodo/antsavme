@@ -25,6 +25,15 @@ const IndexPage = () => {
 
             <h1 className="titleSeparate"> <FeatherIcon size="19" icon="refresh-cw" /> Quick Updates  &nbsp; <Link  to="/archive/"><FeatherIcon size="18" icon="archive"/></Link>  </h1>        
             <div className="newsContainer">
+                        <div className="newsDate"> 10-14 Jul </div>
+                        <div className="newsText" >
+                              I'm travelling to the <b>NetSci 2023</b>, Vienna, Austria.
+
+                              <br/> <br/>
+
+                              Contributed talk: <mark> Quantifying the Topological Stability of a Simplicial Complex </mark>, program TBD.
+                        </div>
+
                         <div className="newsDate"> 12-16 Jun </div>
                         <div className="newsText" >
                               I'm travelling to the <b>25th Conference of the International Linear Algebra Society</b>, Mardid, Spain.
