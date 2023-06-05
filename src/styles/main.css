@@ -456,7 +456,7 @@ mark{
     margin-left: 0.25em;
     color: var(--ctp-latte-subtext0-hsl);
     font-weight: 500;
-    white-space: nowrap;
+    white-space: pre;
     text-align: center;
 }
 
