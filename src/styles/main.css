@@ -132,6 +132,7 @@ body{
 
     .emailSection a{
         white-space: nowrap; 
+        font-size: 0.75em;
     }
     
 }
