@@ -61,7 +61,7 @@ body{
     font-size: 1.1rem;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 850px){
     html{
         /*background-color: var(--ctp-frappe-base-hsl);*/
         background: radial-gradient(farthest-side, var(--ctp-frappe-surface1-hsl) 0%, var(--ctp-frappe-base-hsl) 100%);;
@@ -351,7 +351,7 @@ mark{
 
 
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 850px){
     .sayHi{
         display: none;
     }
