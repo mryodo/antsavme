@@ -25,6 +25,13 @@ const IndexPage = () => {
 
             <h1 className="titleSeparate"> <FeatherIcon size="19" icon="refresh-cw" /> Quick Updates  &nbsp; <Link  to="/archive/"><FeatherIcon size="18" icon="archive"/></Link>  </h1>        
             <div className="newsContainer">
+                        <div className="newsDate"> 12-16 Jun </div>
+                        <div className="newsText" >
+                              I'm travelling to the <b>25th Conference of the International Linear Algebra Society</b>, Mardid, Spain.
+
+                              <br/>
+                              Contributed talk: <mark> Quantifying the Topological Stability of a Simplicial Complex </mark>, <a href=""> program here </a>.
+                        </div>
 
                         <div className="newsDate"> 11 Jan </div>
                         <div className="newsText">
@@ -61,7 +68,7 @@ const IndexPage = () => {
                            <div className="newsText">
                                 Travelling for <a href="https://sites.fct.unl.pt/europt2022/" >EUROPT 22 </a> conference and summer school at Lisbon, Portugal. 
                           </div>
-                          <div className="newsDate"> 11–13 May</div>
+                          {/*<div className="newsDate"> 11–13 May</div>
                            <div className="newsText">
                                 Presenting a poster <mark>Gradient Flow Optimisation for Graph Topological Stability</mark> at <b>NUmerical Methods for Compression and Learning, L’Aquila, Italy</b>.
 
@@ -69,7 +76,7 @@ const IndexPage = () => {
 
                                 Poster: <a href="https://indico.gssi.it/event/344/contributions/1156/">here</a>
                           </div>
-
+                              */}
                           {/*
                           <div className="newsDate"> 14–15 Feb</div>
                            <div className="newsText">
