@@ -23,7 +23,7 @@ const IndexPage = () => {
                                                             arXiv:2301.03627,  <b>2023</b>
                                                 </span>
                                                 <span className="hol">
-                                                                simplicial complex
+                                                               ◭  simplicial complex
                                                 </span>
                                 </li> 
                                 <li> 
