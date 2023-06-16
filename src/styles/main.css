@@ -132,7 +132,7 @@ body{
 
     .emailSection a{
         white-space: nowrap; 
-        font-size: 0.75em;
+        font-size: 0.95em;
     }
     
 }
@@ -140,7 +140,13 @@ body{
 .sayHi{
     font-size: 32px;
     align-self: center;
+    margin-left: 20%;
 }
+
+@media screen and (max-width: ) {
+    
+}
+
 
 .rainbow{
     background: -webkit-linear-gradient(180deg, var(--ctp-frappe-pink-hsl), var(--ctp-frappe-mauve-hsl));
