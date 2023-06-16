@@ -555,6 +555,16 @@ mark{
     white-space: nowrap;
 }
 
+.paperList .hol{
+    border-radius: 1.5em;
+    background-color: var(--ctp-frappe-green-hsl);
+    font-size: 0.9em;
+    margin-left: 1em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    white-space: nowrap;
+}
+
 
 
 

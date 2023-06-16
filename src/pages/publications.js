@@ -12,6 +12,20 @@ const IndexPage = () => {
             <h1 className="titleSeparate"> <FeatherIcon size="19" icon="pen-tool" /> Publications      </h1>        
             <div className="paperList">
                 <ul>
+                                  <li> 
+                                                <span className="rainbow2">
+                                                           N Guglielmi, A Savostianov, F Tudisco 
+                                                </span> &nbsp;
+                                                <span className="title">
+                                                    Quantifying the structural stability of simplicial homology
+                                                </span> &nbsp;
+                                                <span className="info">
+                                                            arXiv:2301.03627,  <b>2023</b>
+                                                </span>
+                                                <span className="hol">
+                                                                simplicial complex
+                                                </span>
+                                </li> 
                                 <li> 
                                                 <span className="rainbow2">
                                                            A Savostianov, A Shapoval, M Shnirman 
