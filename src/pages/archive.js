@@ -27,6 +27,9 @@ const IndexPage = () => {
                               <br/> <br/>
 
                               Contributed talk: <mark> Quantifying the Topological Stability of a Simplicial Complex </mark>, <a href="https://ilas2023.es/program/"> program here </a>.
+
+                              <br/> <br/>
+                              Slides: <a href="https://drive.google.com/file/d/1njnQzqRrJT9MnZdP3wCnBO8sIVxjPIy4/view?usp=sharing">here</a> 
                         </div>
 
                         <div className="newsDate"> 11 Jan </div>
